@@ -4,7 +4,7 @@ namespace LogicalSystem\NodeRed;
 
 use LogicalSystem\HttpCalls\HttpCalls;
 
-class NodeRed {
+class NodeRedCps {
 
     public $baseUrl;
     public $authToken;
