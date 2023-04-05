@@ -15,6 +15,11 @@ class NodeRed {
         $this->authToken = $authToken;
     }
 
+    
+    public function postStoricoComandi($data) {
+        $url = $this->baseUrl."/storico-comandi";
+        return HttpCalls::post($url,$data,"application/json",["Authorization: ".$this->authToken]); 
+    }
 
 }
 
