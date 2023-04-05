@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1a3bb372f72944105e1ac1021fa050d9",
+    "packages": [
+        {
+            "name": "logicalsystem/httpcalls",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LogicalSystem/httpcalls.git",
+                "reference": "11d961d340122bf0003cd0a31f99fb51ae7e7bc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LogicalSystem/httpcalls/zipball/11d961d340122bf0003cd0a31f99fb51ae7e7bc9",
+                "reference": "11d961d340122bf0003cd0a31f99fb51ae7e7bc9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LogicalSystem\\HttpCalls\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Libreria curl",
+            "support": {
+                "issues": "https://github.com/LogicalSystem/httpcalls/issues",
+                "source": "https://github.com/LogicalSystem/httpcalls/tree/v1.1.1"
+            },
+            "time": "2023-03-28T13:55:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
