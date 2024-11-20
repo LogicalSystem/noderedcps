@@ -4,25 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a3bb372f72944105e1ac1021fa050d9",
+    "content-hash": "358b222ca118d8f2782de1100f91bc86",
     "packages": [
         {
             "name": "logicalsystem/httpcalls",
-            "version": "v1.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LogicalSystem/httpcalls.git",
-                "reference": "11d961d340122bf0003cd0a31f99fb51ae7e7bc9"
+                "reference": "0a3e0dc19f154b81048828e7f8584e6be30b2299"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LogicalSystem/httpcalls/zipball/11d961d340122bf0003cd0a31f99fb51ae7e7bc9",
-                "reference": "11d961d340122bf0003cd0a31f99fb51ae7e7bc9",
+                "url": "https://api.github.com/repos/LogicalSystem/httpcalls/zipball/0a3e0dc19f154b81048828e7f8584e6be30b2299",
+                "reference": "0a3e0dc19f154b81048828e7f8584e6be30b2299",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -36,15 +37,17 @@
             "description": "Libreria curl",
             "support": {
                 "issues": "https://github.com/LogicalSystem/httpcalls/issues",
-                "source": "https://github.com/LogicalSystem/httpcalls/tree/v1.1.1"
+                "source": "https://github.com/LogicalSystem/httpcalls/tree/master"
             },
-            "time": "2023-03-28T13:55:58+00:00"
+            "time": "2023-08-02T12:45:35+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "logicalsystem/httpcalls": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
